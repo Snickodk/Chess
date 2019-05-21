@@ -11,7 +11,8 @@ class Player(object):
     
     allsquares = [(x, y)
     for x in range(8) 
-    for y in range(8)] dullmoves = 0 
+    for y in range(8)] 
+    dullmoves = 0 
     
     def init(self, colour, nature, name):
        self.colour = colour 
@@ -547,4 +548,3 @@ class Piece(object, self):
             if __name__ == '__main__':
                 #cProfile.run('main()')
                 main()
-
